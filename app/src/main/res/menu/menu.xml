@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Go to first fragment"
+        android:id="@+id/item_settings"
+        app:showAsAction="never"
+        >
+
+    </item>
+    <item
+        android:title="Show second fragment"
+        android:id="@+id/item_name"
+        app:showAsAction="never"
+        >
+
+    </item>
+    <item
+        android:title="Show third fragment"
+        android:id="@+id/item_calls"
+        app:showAsAction="never"
+        >
+
+    </item>
+    <item
+        android:id="@+id/item_to_main"
+        android:title="Show notification"
+        app:showAsAction="never">
+
+    </item>
+</menu>
